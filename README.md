@@ -24,6 +24,7 @@ What can you use if you want to automate the creation and cleanup of lambda func
 Excercise Two Questions:
 Which line in the function code tries to retrieve the content type of the object?
   line 17 => get the response to process (it contains the content type).
+  line 18 => get the content type.
 
 In the test event JSON, what information do you see about the S3 bucket?
   bucket name
@@ -33,7 +34,10 @@ In the test event JSON, what information do you see about the S3 bucket?
 What information do you see in the Execution Results tab after running test?
   An error, since the bucket name and key weren't used
   After fixing:
+  Reponse:
     bucket content type: "image/png"
+  Logs:
     Start, end & report request IDs
-    
+  Request type:
+    Request ID
 
